@@ -20,7 +20,7 @@ package Person {
  usecase "See "Friend Requests"" as fr
 }
 
-t -- vs
+
 t -- sp
 s -- sp
 dep -- sp
@@ -28,6 +28,7 @@ sp --> sf : extends
 t -- vp
 s -- vp 
 dep -- vp
+sp --> vs : extends
 vp --> sv : extends
 vp --> ed : extends
 sv --> pl : includes
@@ -40,6 +41,9 @@ fr --> df : extends
 
 @enduml
 ```
+### 3rd version 
+![3rd](https://github.com/MarkSeliverstov/NSWI041-intro-to-software-engineering/assets/120932204/2fc29bc3-5edf-4a0c-8a81-7912819c3761)
+
 ### 2nd version
 ![uc](https://github.com/MarkSeliverstov/NSWI041-intro-to-software-engineering/assets/120932204/a1cc7ec0-9609-4738-ac8c-501f8d9a5597)
 
