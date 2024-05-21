@@ -2,13 +2,13 @@
 #### Test conditions.
 1. Applicant submitted valid application form.
 2. Program (the applicant applied for) has option for waiver.
-3. Option for waiver expiration (whether expired or not at different period of time). (?? Ask, co zde jde testovat expiraci nebo validost nebo oboje)
+3. Option for waiver expiration (whether expired or not at different period of time).
 4. Applicant logged into the system.
 5. Admission process selection.
 6. Applicant chooses to submit "application for waiver of entrance exams".
 7. Prompt to provide necessary documents.
 8. Prompt to provide necessary information (fill info on the web).
-9. Validation of documents "properties" (max. size, format) (Ask ?? je potreba specifikovat jaka kriteria, nebo psat obecne, je to az moc dopodrobna?)
+9. Validation of documents "properties" (max. size, format (.pdf, .docs, ...))
 10. Validation of information filled on web.
 11. Saving uploaded documents.
 12. Saving information filled on web.
@@ -42,7 +42,7 @@
 | Test steps | | | | |
 | --- | ---| --- | --- | ---|
 | # | Action | Expected result | Result | Comment |
-| 1 | Applicant logs into the system with right credentials | Opening menu of the system is shown to the applicant | OK | nothing |
+| 1 | Applicant logs into the system with right credentials | Opening menu of the system is shown to the applicant | OK | ... |
 | 2 | Applicant selects relevant admission process | Information, status and options of the process are shown | OK | ... |
 | 3 | Applicant chooses to submit "application for waiver of entrance exams" | New window with fields where to upload documents is shown | OK | ... |
 | 4 | Applicant uploads documents | After validation of max. size, format window reflects that files were uploaded | OK | ...|
@@ -61,6 +61,6 @@
 | Test steps | | | | |
 | --- | ---| --- | --- | ---|
 | # | Action | Expected result | Result | Comment |
-| 1 | Applicant logs into the system with right credentials | Opening menu of the system is shown to the applicant | OK | nothing |
+| 1 | Applicant logs into the system with right credentials | Opening menu of the system is shown to the applicant | OK | ... |
 | 2 | Applicant selects relevant admission process | Information, status and options of the process are shown | OK | ... |
 | 3 | Applicant selects option to submit "application for waiver of entrance exams" | (System checks for already submitted applications,) and returns notification that the applicant cannot submit the "application for waiver of entrance exams", as there is already submitted application in the system | OK | ... |
